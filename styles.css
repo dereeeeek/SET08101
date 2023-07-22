@@ -1,0 +1,32 @@
+/* Add a black background color to the top navigation */
+.navigation {
+  background-color: #030000;
+  overflow: hidden;
+}
+
+
+.navigation a:hover {
+  background-color: #ddd;
+  color: rgb(8, 254, 250);
+}
+
+
+.navigation a {
+  float: left;
+  color: #ffffff;
+  text-align: middle;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.recipe {
+  float: left;
+  color: #ffffff;
+  text-align: middle;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
