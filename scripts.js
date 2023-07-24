@@ -1,3 +1,5 @@
+//  <!-- follow up code used from https://www.youtube.com/watch?v=QEHyUQwwjws&ab_channel=Chidre%27sTechTutorials -->
+
 function add()
 {
     var num1 = Number(document.getElementById("number1").value);
