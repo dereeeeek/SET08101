@@ -1,0 +1,103 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: rgba(241, 241, 218, 0.967);
+}
+
+header {
+  background-color: #333;
+  background-image: url('banner.jpg');
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 15px;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+section h2 {
+  margin-top: 0;
+}
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+/*Dropdown Menu - adapted from https://www.w3schools.com/cssref/sel_hover.php*/
+nav ul ul {
+  display: none;
+  position: absolute;
+  background-color: rgb(235, 148, 8);
+
+}
+
+nav li:hover ul {
+  display: block;
+}
+
+nav ul ul li:hover {
+  background-color: #c6e808;
+}
+
+nav ul ul li {
+  display: block;
+  margin: 1px;
+  padding: 7px;
+}
+
+
+
+.container {
+  max-width: 900px;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: rgb(245, 245, 220);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 5px solid rgb(0, 0, 0);
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.container .intro {
+  padding: 100px;
+  font-size: 20px;
+  position: relative;
+  bottom: 50px;
+  
+}
+
+.allign {
+  max-width: 900px;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+
