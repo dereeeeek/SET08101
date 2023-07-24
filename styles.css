@@ -95,3 +95,12 @@ section {
 }
 
 
+.image {
+  margin: 200px;
+  position: absolute;
+  padding: 200px;
+  width:50px;
+  height: 50px;
+
+}
+
